@@ -2,10 +2,10 @@ import numpy as np
 import pickle
 import pandas as pd
 import streamlit as st 
-pip install sklearn
 import matplotlib.pyplot as plt
 from sklearn.preprocessing import LabelEncoder
 from sklearn.model_selection import train_test_split
+from sklearn import linear_model
 from sklearn.linear_model import Lasso
 from sklearn.feature_selection import SelectFromModel
 from sklearn.model_selection import RandomizedSearchCV
